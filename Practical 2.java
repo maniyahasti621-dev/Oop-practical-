@@ -17,7 +17,6 @@ public class Practical2 {
         double e = sc.nextDouble();
         double f = sc.nextDouble();
 
-        // Cramer's rule: D = ad - bc, Dx = ed - bf, Dy = af - ce
         double D = a * d - b * c;
         double Dx = e * d - b * f;
         double Dy = a * f - e * c;
