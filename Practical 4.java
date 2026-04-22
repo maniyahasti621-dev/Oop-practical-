@@ -10,6 +10,5 @@ public class Practical4{
         System.out.print("Enter height in inches: ");
         double inches = sc.nextDouble();
 
-        // Convert to metric
         double kilograms = pounds * 0.45359237;
         double meters = inches * 0.025
