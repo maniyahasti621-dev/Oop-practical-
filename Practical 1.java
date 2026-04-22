@@ -8,8 +8,7 @@ public class Practical1{
         double meters = sc.nextDouble();
         
         double feet = meters * 3.28084;
-        
-        // Display result formatted to two decimal places
+
         System.out.printf("%.2f meters = %.2f feet\n", meters, feet);
         
         sc.close();
