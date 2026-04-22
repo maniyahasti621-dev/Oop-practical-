@@ -9,9 +9,7 @@ public class Practical5{
         double b = sc.nextDouble();
         double c = sc.nextDouble();
 
-        // Validate if sides can form a triangle
         if (a + b > c && a + c > b && b + c > a) {
-            // Heron's formula: s = (a+b+c)/2, Area = sqrt(s*(s-a)*(s-b)*(s-c))
             double s = (a + b + c) / 2;
             double area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
             
