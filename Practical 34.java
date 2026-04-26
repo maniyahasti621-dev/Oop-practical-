@@ -8,7 +8,6 @@ import javafx.stage.Stage;
 
 public class RegistrationForm extends Application {
 
-    @Override
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Student Registration Form");
 
