@@ -12,7 +12,6 @@ import java.util.Random;
 
 public class TextDisplay extends Application {
     
-    @Override
     public void start(Stage primaryStage) {
         VBox root = new VBox(15); 
         root.setAlignment(Pos.CENTER); 
